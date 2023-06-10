@@ -1,0 +1,42 @@
+      h2 {
+       text-align:center ;
+}
+       #nav {
+       list-style: none ;
+}
+      #nav li {
+      padding: 5px;
+      
+}      
+      #nav li a {
+       display: block ;
+       width: 19% ;
+       text-decoration: none ;
+       padding: 10px ;
+       background-color: darksalmon ;
+       color: black ;
+       border: 1px solid darksalmon ;
+       border-radius: 10px ;
+       text-align: center ;
+       
+}
+       #nav li a:hover {
+       backdround-color: darkred ;
+       color: white ;
+}
+         #nav ul {
+         list-style: none;
+         display: none ;
+}
+         #nav li a {
+         background-color: burlywood;
+         border: 1px solid burlywood;
+}
+         #nav li:hover > ul {
+         display: block ;
+}
+
+       */<a href"#"="" class="active">Home</a>
+       */<a href="#">News</a>
+       */<a href="#">Contact</a>
+       */<a href="#">About</a>

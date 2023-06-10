@@ -1,0 +1,48 @@
+      h2 {
+       text-align:center ;
+}
+       ul  {
+       list-style: none ;
+}
+        a {
+         text-decoration: none ;
+        
+      
+}      
+       #nav li {
+       width: 19% ;
+       mergin:1% ;
+       float: left;
+       
+}
+       #nav li a {
+       background-color: #333;
+       color: white ;
+       font-size:40% ;
+       padding: 5% 15%;
+       text-align: center ;
+       display : block;
+       border-radius: 15px ;
+       border :2px solid ;
+       border-color: gold ;
+}
+       #nav li ul li {
+       float: none ;
+       width: 100% ;
+       margin: 5% ;
+}
+       #nav li ul li a {
+        background-color: black ; 
+}
+       #nav li ul {
+        display: none ;
+}
+       #nav li:hover ul {
+        display: block ;
+}
+       #nav li a:hover {
+        background-color: red  ;
+} 
+       #nav li ul li a:hover {
+        background-color: cornflowerblue  ;
+}

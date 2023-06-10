@@ -1,0 +1,17 @@
+.container {=
+.container > div {=
+       #header {=
+       #aside {=
+       .main {
+       grid-area: main;
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+       grid-gap: 10px
+}
+       .main div {
+        background-color: #377554;
+        text-alighn: center;
+        color: white;
+}
+
+   

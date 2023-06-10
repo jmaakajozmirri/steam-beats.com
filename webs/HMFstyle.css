@@ -1,0 +1,77 @@
+      
+  #header { 
+       background-color: #999;
+       text-align:left;
+           border: 1px solid ;
+       border-color: black ;
+       
+       
+}
+     #five {
+       background-color: darkslateblue ;
+       text-align: center;
+       color: white ;
+       font-size: 45px ;      
+}
+            #six {
+       background-color: darkslateblue ;
+       text-align: right;
+}        
+       .p1 { 
+        align-self: center;
+} 
+       .main {
+       grid-area: main;
+       display: grid;
+       grid-template-columns: repeat(4,1fr);
+       grid-gap:2px;
+       grid-auto-rows : minmax(50px,auto);
+}
+       .main div {
+        background-color: #377554;
+        text-align: center;
+        color: white;
+        border: 1px solid ;
+}
+    #one {
+    justify-self:;
+    align-self:;
+    text-align: ;
+    font-size: 12px;
+    background-color: darkkhaki;
+    color: black;
+}
+        #two {
+    justify-self:;
+    align-self:;
+    text-align: ;
+    font-size: 12px;
+    background-color: darkmagenta;
+    color: silver;
+}
+    
+        #three {
+    justify-self:;
+    align-self:;
+    text-align: ;
+    font-size: 12px;
+    background-color: orange;
+    color: black;
+}
+   
+        #four {
+    justify-self:;
+    align-self:;
+    text-align: ;
+    font-size: 12px;
+    background-color: darkred;
+    color: silver;
+}
+    .footer {
+ 
+     border: 1px solid ;
+     border-color: black ;
+     background-color: lightgrey ;
+}
+      
+           
